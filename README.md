@@ -1,2 +1,2 @@
 # databricksinsandouts
-This repository contains all Databricks learning in notebooks
+This repository contains databricks notebooks illustrating databricks concepts and features.
