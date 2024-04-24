@@ -40,3 +40,8 @@
 # MAGIC %sql
 # MAGIC
 # MAGIC SELECT * FROM dev.learning_db.people
+
+# COMMAND ----------
+
+people_df = spark.read.option("versionAsOf","1").table("dev.learning_db.people")
+display(people_df)
