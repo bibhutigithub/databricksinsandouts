@@ -105,3 +105,8 @@ people_df.write.format("delta").mode("append").saveAsTable("dev.learning_db.peop
 
 # MAGIC %sql
 # MAGIC TRUNCATE TABLE dev.learning_db.people;
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC DROP TABLE dev.learning_db.people;
